@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+
+import { Carousel, Container } from "../Banner/Banner.style";
+import ImageSlider from "../imageSlider/ImageSlider";
+import Viewers from "../viewers/Viewers";
 
 const Banner = () => {
   return (
-    <div>Banner</div>
-  )
-}
+    <Container>
+      <ImageSlider />
+      <Viewers />
+    </Container>
+  );
+};
 
-export default Banner
+export default Banner;
