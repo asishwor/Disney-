@@ -8,6 +8,9 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
 
     }
+    img{
+        max-width: 100%;
+    }
     a{
         color: initial;
         text-decoration: initial;
@@ -15,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
             
         }
     }
+
     ul{
         list-style: none;
 
@@ -22,7 +26,6 @@ export const GlobalStyle = createGlobalStyle`
    body{
     line-height: 1.7em;
     color: #fff;
-    font-family: source-code-pro;
     font-family: 'Source Code Pro', monospace;
     background-color: #040714;
     font-weight:400;    }
