@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     }
    body{
     line-height: 1.7em;
+    color: #fff;
     font-family: source-code-pro;
     font-family: 'Source Code Pro', monospace;
     background-color: #040714;
